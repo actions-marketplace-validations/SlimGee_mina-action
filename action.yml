@@ -1,6 +1,6 @@
 # action.yml
 name: 'Simple mina deploy'
-description: 'Deploy ruby 2.5.0 usign mina'
+description: 'Deploy ruby 3.3.5 usign mina'
 branding:
   icon: 'arrow-up-circle'
   color: 'red'
