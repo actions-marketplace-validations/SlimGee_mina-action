@@ -6,7 +6,7 @@ log() {
 
 minaDeploy() {
   log "Running mina $INPUT_ENVIRONMENT $INPUT_COMMAND"
-  /usr/local/bundle/bin/mina $INPUT_ENVIRONMENT $INPUT_COMMAND
+  bundle && bundle exec mina $INPUT_ENVIRONMENT $INPUT_COMMAND
 }
 
 configureSSH() {
