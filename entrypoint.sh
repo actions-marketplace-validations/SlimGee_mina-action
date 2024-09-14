@@ -6,6 +6,7 @@ log() {
 
 minaDeploy() {
   log "Running mina $INPUT_ENVIRONMENT $INPUT_COMMAND"
+  echo $(pwd) && ls
   bundle && bundle exec mina $INPUT_ENVIRONMENT $INPUT_COMMAND
 }
 
